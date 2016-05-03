@@ -1,0 +1,19 @@
+<resources>
+
+
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar.CircularProgressBar" parent="Widget">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="progressColor">#ffffff</item>
+        <item name="hasShadow">true</item>
+        <item name="strokeWidth">20</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Holo.CircularProgressBar" parent="Widget.ProgressBar.CircularProgressBar">
+        <item name="hasShadow">true</item>
+        <item name="strokeWidth">10</item>
+    </style>
+
+</resources>
