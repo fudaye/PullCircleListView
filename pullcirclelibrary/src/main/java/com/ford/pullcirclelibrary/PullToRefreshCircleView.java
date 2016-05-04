@@ -150,7 +150,7 @@ public class PullToRefreshCircleView extends ListView {
                     }
                     if (isPull) {
                         if (mHeadView != null) {
-                            //  保留问题 当一个点下拉，另一个点点击屏幕造成回弹现象
+                            // a question
                             if ((int) mMoveDeltaY > 180) {
                                 mMoveDeltaY = 180;
                             }
@@ -233,9 +233,6 @@ public class PullToRefreshCircleView extends ListView {
         mListener = listener;
     }
 
-    /**
-     * 通过反射修改字段去掉长按事件和点击事件
-     */
     private void clearContentViewEvents() {
         try {
             Field[] fields = AbsListView.class.getDeclaredFields();
